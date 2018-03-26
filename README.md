@@ -1,6 +1,14 @@
 # Queens-College--CS211
 
-Shift Equivalent Arrays
+*RACES*
+
+The user will enter a string of letters, and this will continue until "done" is entered.
+Each letter represents a runner on a team. (All "A"s are on one team, all "B"s on another, etc.)
+The order they are listed in indicates the order they arrived at the finish line in.
+Calculate the average score for each team. Also output the number of teams, how many runners were on each team, and which team 
+was the winning team.
+
+*SHIFT EQUIVALENT ARRAYS*
 
 It is possible to transform an array a into array b
 by shifting
