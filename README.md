@@ -37,3 +37,7 @@ if they are shift equivalent and
 false
 otherwise.
 
+*8 QUEENS- WITH GOTO*
+
+The eight queens puzzle is the problem of placing eight chess queens on an 8×8 chessboard so that no two queens threaten each other. (No two queens can be in the same row, column, or diagonal.)
+This version of code solves the problem using GOTO labels.
