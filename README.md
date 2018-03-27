@@ -46,6 +46,10 @@ This version of code solves the problem using GOTO labels.
 
 Solve the eight queens puzzle without using GOTO labels. (Mechanically place a queen in the slot, and then send it to some sort of "judge." This "judge, which contains the intellegence of the program, will return if the queen is allowed in that spot or not. If the queen is rejected from all spots in that row, use backtracking.)
 
+*8 QUEENS- RECURSIVE*
+
+Solve the 8 queens puzzle using recursion. (When using recursion, backtracking is a natural result due to the way it works on the Runtime Stack!)
+
 *8 QUEENS- CHESSBOARD*
 
 Solve the eight queens puzzle and display the results using a nicer output. Modify the program (1 dimensional array – no GOTO version) so that it prints out a chessboard with some “fancy” representation of a queen in the appropriate positions.
@@ -66,7 +70,9 @@ Input Data: For this program use the arrays mp and wp given. The data will thus 
 
 *STABLE MARRIAGE RECURSIVE*
 
-Modify the Stable Marriage code so it works recursively. (When using recursion, backtracking is a natural result due to the way it works on the Runtime Stack!)
+Modify the Stable Marriage code so it works recursively. 
+
+*FIBONACCI RECURSIVELY*
 
 *TOWERS OF HANOI*
 
