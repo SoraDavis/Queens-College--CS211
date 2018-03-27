@@ -68,4 +68,38 @@ Input Data: For this program use the arrays mp and wp given. The data will thus 
 
 Modify the Stable Marriage code so it works recursively. (When using recursion, backtracking is a natural result due to the way it works on the Runtime Stack!)
 
+*TOWERS OF HANOI*
+
+Solve the Towers of Hanoi puzzle, using recursion.
+
+*INTEGRATION (USING FUNCTION POINTERS)*
+
+The problem is to write a function “integrate” with prototype
+FUNC, which represents functions of one variable that take a double as input and return a double.
+When it is passed a function f and bounds a and b, the call
+"integrate(f, a,b)" will return the value of the definite integral of f evaluated between a and b.
+Test this with line, square, and cube- using a main function.
+
+How does integrate work?
+Inside a loop we sum up the area of rectangles with a small base (say .0001) and height f(x) for each x between a and b in increments of .0001. 
+When the loop terminates, we return the value of the sum. 
+The purpose if this assignment is to see (and implement)  a very simple application of function pointers. 
+
+*N ROWS, K BISHOPS*
+
+This problem concerns “bishops” on the chessboard. What is a bishop? A bishop is a chess piece that controls all the squares on the two diagonals that it can reach. (Note that a bishop may be either on a white square or a black square.)
+The problem is to write a program that inputs two integers n and k, where n>=k. Your program should calculate the number of different ways that k bishops could be placed on an nXn chessboard. 
+
+Structure your program using the backtracking scheme that was used for the eight queens problem. What needs to be modified is the “OK” function. The main program should loop, asking the user for values of n and k. Each time through the loop, output n, k and the number of configurations. The program will terminate if the user enters a value of -1 for n.
+
+Watch out- It is possible to get two answers which mean the same thing. Becuase order doesn't matter, I used a factorial function to help calculate the possible combinations, instead of the permutations.
+
+*SHORTEST PATH*
+
+*SHORTEST PATH MEMOIZED*
+
+*RATIONAL NUMBERS CLASS*
+
+
+
 
